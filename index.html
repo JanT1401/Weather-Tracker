@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="inputSection">
+            <input type="text" placeholder="Enter your city" id="cityInput">
+            <button id="submitButton" onclick="searchCity()">Submit</button>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <h1 class="cardHeadline">🌡️</h1>
+                <p class="cardInformation" id="degrees">/</p>
+            </div>
+            <div class="card">
+                <h1 class="cardHeadline">💧</h1>
+                <p class="cardInformation" id="humidity">/</p>
+            </div>
+            <div class="card">
+                <h1 class="cardHeadline">🍃</h1>
+                <p class="cardInformation" id="windspeed">/</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
